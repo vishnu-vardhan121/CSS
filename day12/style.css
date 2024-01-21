@@ -1,0 +1,40 @@
+.navbar{
+    width: 20%;
+    height: ;
+    background-color: rgb(8, 174, 174);
+}
+img{
+    width: 100%;
+}
+.side{
+    margin-left: 20%;
+    position: absolute;
+    top: 12px;
+}
+.ass{
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+}
+
+.one{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.one>div{
+    color: white;
+    background-color: black;
+    align-items: center;
+    width: 1%;
+    height: 1%;
+    font-size: 50%;
+    padding: 1%;
+    border: 1px solid black;
+}
+.one>div:hover{
+    color: black;
+    background-color: rgb(220, 189, 189);
+}
