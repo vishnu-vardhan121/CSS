@@ -1,0 +1,138 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color: rgb(17, 2, 58);
+            }
+
+
+            #playbar{
+                display: inline;
+            }
+
+            #play{
+                background-color: red;
+                border: 2px solid black;
+            
+                width: 30px;
+                height: 30px;
+                
+            }
+            
+            .box{
+                background-color: red;
+                border: 1px solid black;
+                width: 90px;
+                height: 40px;
+                display: inline-block ;
+
+                
+            }
+
+            .line:nth-child(odd){
+                background-color: aqua;
+                border: 1px solid black;
+                width: 4px;
+                height: 50px;
+                display:inline-block;
+                padding-left: 3px;
+                margin-left: 3px;
+                animation-name: flow ;
+                animation-duration: 120ms;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+            }
+
+            .line:nth-child(even){
+                background-color: aqua;
+                border: 1px solid black;
+                width: 4px;
+                height: 50px;
+                
+                display:inline-block;
+                padding-left: 3px;
+                margin-left: 3px;
+                animation-name: flow ;
+                animation-duration: 160ms;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+            }
+            @keyframes flow {
+
+                0%{height: 0px; background-color: red;}
+                5%{ height: 2.5px; background-color: burlywood;}
+                10%{ height: 5px; background-color: rgb(67, 12, 234);}
+                15%{ height: 45px; background-color: darkgreen;}
+                20%{ height: 10px; background-color: rgb(13, 213, 224);}
+                25%{ height: 12.5px; background-color: rgb(236, 37, 209);}
+                30%{ height: 15px; background-color: rgb(14, 222, 163);}
+                35%{ height: 17.5px; background-color: rgb(221, 35, 7);}
+                40%{ height: 30px; background-color: rgb(231, 22, 224);}
+                45%{ height: 22.5px; background-color: rgb(243, 228, 19);}
+                50%{ height: 25px; background-color: rgb(114, 10, 102);}
+                55%{ height: 27.5px; background-color: rgb(9, 233, 125);}
+                60%{ height: 30px; background-color: rgb(241, 13, 131);}
+                65%{ height: 10px; background-color: rgb(243, 228, 19);}
+                70%{ height: 35px; background-color: rgb(30, 28, 4);}
+                75%{ height: 37.5px; background-color: rgb(17, 208, 71);}
+                80%{ height: 35px; background-color: rgb(31, 37, 195);}
+                85%{ height: 42.5px; background-color: rgb(22, 184, 71);}
+                90%{ height: 45px; background-color: rgb(16, 114, 62);}
+                95%{ height: 47.5px; background-color: rgb(19, 243, 142);}
+                100%{ height: 50px; background-color: rgb(243, 228, 19);}
+            }
+
+            #img{
+                display: inline-block;
+    
+            }
+            a{
+                text-decoration: none;
+                color: white;
+
+            }
+        </style>
+    </head>
+    <body>
+        <center><img src="./source/ressologo.png" alt="Resso Logo"></center>
+        <details>
+            <summary>E.d sheeran</summary>
+            <center>
+                <h4>Perfect</h4>
+                <audio autoplay controls muted>
+                    <source src="./source/Anne-Marie - 2002 (Glastonbury 2019).mp4" type="audio/mp3">
+                </audio>
+            </center>
+        </details>
+        <details>
+            <summary>Anna merie</summary>
+            <audio controls >
+                <source src="./source/Anne-Marie - 2002 (Glastonbury 2019).mp4" type="audio/mp3">
+            </audio>
+        </details>
+        <a href="">
+            <h3>MONEY</h3>
+        <h5>Lisa</h5></a>
+            <img src="./ressosrc/lisa.jpeg" alt="lisa" width="600px" id="img" style="display: block;">
+            <div id="playbar">
+                <audio id="aud" autoplay controls>
+                    <source src="./ressosrc/MONEY.mp3">
+                </audio>
+            </div>
+            
+                
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+
+
+            
+    </body>
+</html>
