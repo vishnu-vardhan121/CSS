@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>templet</title>
+    <style>
+        #left{
+            width: 300px ;
+            height: 100%;
+            background-color: rgb(255, 255, 255);
+            flex-direction: column;
+
+    
+        }
+
+        .prof{
+            padding:20px;
+             border-radius: 20%;
+    
+        }
+        a{
+            text-decoration: none;
+            font-size: large;
+        }
+        .click{
+            
+          padding-bottom: 30px;  
+        }
+
+        .rr{
+            padding: 9px ;
+
+        }
+        .right{
+            display: inline-block;
+        }
+        .filt{
+            display: inline;
+        }
+
+        .right{
+            background-color: rgb(255, 255, 230);
+            margin-left: 4px;
+        }
+        
+        .all{
+            margin-left: 15px;
+            color: white;
+            display: inline-block;
+            border: 1px solid black ;
+            width: 39px;
+            background-color: black;
+        }
+        
+        .br{
+            padding-left: 3px;
+            border: 1px solid white;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .hr{
+            height: 4px;
+            width:auto;
+            margin-left: 7px;
+            margin-right: 7px;
+            background-color: rgb(248, 187, 106);
+            border: 1px solid rgb(238, 216, 216);
+            position: relative;
+            top: 10px;
+
+        
+        }
+        .p{display: flex;}
+        #box{
+            height: auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .l1{
+            display: flex;
+            margin:20px;
+            background-color: white;
+            justify-content: space-around;
+
+        }
+        .im{
+            width: 100%;
+            
+        }
+
+        .m,.ii{
+            margin-left: 5px;
+        }
+
+        .l2{
+            display: flex;
+             margin:20px;
+            background-color: white;
+        }
+        .i{
+            width: 100%;
+        }
+        
+        .im:hover{
+            opacity: 0.7;
+        }
+        .i:hover{
+            opacity: 0.7;
+        }
+
+        .num{
+            display: flex;
+            justify-content: center;
+        }
+
+        .n{
+            height: 30px;
+            width: 30px;
+            text-align: center;
+            line-height:30px;
+            
+        }
+
+        n1{
+            background-color: black;
+        }
+
+        .n:hover{
+            color: white;
+            background-color: black;
+        }
+        .l3{
+            display: flex;
+    
+        }
+        .ll{
+            width: 50%;
+            margin: 8px;
+        }
+        .l{
+            width: 100%;
+        }
+
+        .pht{
+            display: flex;
+            margin: 9px;
+            text-align: center;
+            line-height: 30px;
+        }
+        .pers{
+            height: 29px;
+            background-color: rgb(127, 120, 110);
+            flex-grow: 1;
+        }
+
+        .mt{
+            width: 5%;
+            height: 29px;
+            background-color: rgb(184, 177, 187);
+        }
+        .web{
+            height: 29px;
+            background-color: rgb(127, 120, 110);
+            flex-grow: 1;
+            text-align: center;
+
+        }
+        .mt2{
+            width: 15%;
+            height: 29px;
+            background-color: rgb(184, 177, 187);
+        }
+        .ps{
+            display: flex;
+            margin: 9px;
+
+        }
+       .ph{
+            height: 29px;
+            background-color: rgb(127, 120, 110);
+            flex-grow: 1;
+            text-align: center;
+            line-height: 28 px;
+       }
+       .mt3{
+        height: 29px;
+        width: 20%;
+        background-color: rgb(184, 177, 187);
+
+       }
+       .dow{
+        height: 35px;
+        width: 180px;
+        background-color: rgb(127, 120, 110);
+        text-align: center;
+        line-height: 36px;
+        margin-left: 10px;
+       }
+
+       .dow:hover{
+        background-color: rgb(184, 177, 187);
+       }
+    </style>
+</head>
+<body>
+    <div class="p">
+        <div id="left">
+            <img class="prof" src="./src/avatar_g2.jpg" alt="" width="150px" >
+            <div class="click"><a href="">PORTFOLIO</a></div>
+            <div class="rr"><a href=""> Portfolio</a></div>
+            <div class="rr"><a href=""> About</a></div>
+            <div class="rr"><a href=""> Contact</a></div>
+        </div>
+        <div class="right">
+             <div><h1>My Profile</h1>
+                <p class="filt">Filter:</p>
+                <a href="" class="all">ALL</a>
+                <a href="" class="br">Digne</a>
+                <a href="" class="br">Photos</a>
+                <a href="" class="br">Art</a></div>
+             <div class="hr"></div>
+             <div id="box">
+                <div class="l1">
+                    <div class="m">
+                        <img src="./src/mountains.jpg" class="im" alt="">
+                        <b>Lorem </b>
+                        <p> ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ab natus nemo, dicta unde, adipisci earum, veniam mollitia at nam impedit. Harum vitae ratione illum voluptatibus consectetur quis, sequi delectus?
+                        </p>
+                    </div>
+                    <div class="m">
+                        <img src="./src/lights.jpg" class="im" alt="">
+                        <b>Lorem </b>
+                        <p> ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ab natus nemo, dicta unde, adipisci earum, veniam mollitia at nam impedit. Harum vitae ratione illum voluptatibus consectetur quis, sequi delectus?
+                        </p>
+                    </div>
+                    <div class="m">
+                        <img src="./src/nature.jpg" class="im" alt="">
+                        <b>Lorem </b>
+                        <p> ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ab natus nemo, dicta unde, adipisci earum, veniam mollitia at nam impedit. Harum vitae ratione illum voluptatibus consectetur quis, sequi delectus?
+                        </p>
+                    </div>
+                </div>
+                <div class="l2">
+                    <div class="ii" >
+                        <img src="./src/p1.jpg" alt="" class="i">
+                        <b>Lorem </b>
+                        <p> ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ab natus nemo, dicta unde, adipisci earum, veniam mollitia at nam impedit. Harum vitae ratione illum voluptatibus consectetur quis, sequi delectus?
+                        </p>
+                    </div>
+                    <div class="ii">
+                        <img src="./src/p2.jpg" alt="" class="i">
+                        <b>Lorem </b>
+                        <p> ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ab natus nemo, dicta unde, adipisci earum, veniam mollitia at nam impedit. Harum vitae ratione illum voluptatibus consectetur quis, sequi delectus?
+                        </p>
+                    </div>
+                    <div class="ii">
+                        <img src="./src/p3.jpg" alt="" class="i">
+                        <b>Lorem </b>
+                        <p> ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ab natus nemo, dicta unde, adipisci earum, veniam mollitia at nam impedit. Harum vitae ratione illum voluptatibus consectetur quis, sequi delectus?
+                        </p>
+                    </div>
+                </div>
+             </div>
+             
+             <div class="num">
+                <div class="n"><<</div>
+                <div class="n n1">1</div>
+                <div class="n">2</div>
+                <div class="n">3</div>
+                <div class="n">4</div>
+                <div class="n">>></div>
+
+             </div>
+
+             <div class="l3">
+                <div class="ll" >
+                    <img src="./src/avatar_g.jpg" alt="" class="l">
+                </div>
+                <div class="ll">
+                    <img src="./src/me2.jpg" alt="" class="l">
+                </div>
+             </div>
+             <div>
+                <div>
+                    <b>About Me</b>
+                    <P>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</P>
+                    <div><b>Technical Skills</b></div>
+                    <p>Photography</p>
+                    <div class="pht">
+                        <div class="pers">95%</div>
+                        <div class="mt"></div>
+                    </div>
+                    <p>Web design</p>
+                    <div class="pht">
+                        <div class="web">85%</div>
+                        <div class="mt2"></div>
+                    </div>
+                    <p>Photo Shop</p>
+                    <div class="ps">
+                        <div class="ph">80%</div>
+                        <div class="mt3"></div>
+                    </div>
+
+                    <div class="dow"><b>Dowlnoad Resume</b></div>
+                </div>
+             </div>
+        </div>
+    </div>
+</body>
+</html>
